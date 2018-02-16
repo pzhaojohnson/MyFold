@@ -38,9 +38,6 @@ let DanglingG = new (function () {
   };
   
   this.outer5 = function (seq, p0, p1) {
-    if (ENDS5[seq.charAt(p0)][seq.charAt(p1)] === undefined) {
-      console.log(p0 + "," + seq.charAt(p0) + "," + p1 + "," + seq.charAt(p1));
-    }
     return ENDS5[seq.charAt(p0)][seq.charAt(p1)][seq.charAt(p0 - 1)];
   };
   
