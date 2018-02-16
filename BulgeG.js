@@ -39,6 +39,7 @@ let BulgeG = new (function () {
         : INITIATION[6] + (1.75 * Constants.R * Constants.T * Math.log(n / 6));
       
       return initG
+        + StackG.endPenalty(Seq.SEQ, p0, p1)
         + StackG.endPenalty(Seq.SEQ, q0, q1);
     }
   };
