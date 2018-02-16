@@ -455,6 +455,7 @@ let InternalG = new (function () {
         //+ TermMisG.outer(Seq.SEQ, q0, q1)
         + (Utils.isAUorGUPair(seq, p0, p1) ? AU_GU_CLOSURE : 0.0)
         + (Utils.isAUorGUPair(seq, q0, q1) ? AU_GU_CLOSURE : 0.0)
+        + StackG.endPenalty(Seq.SEQ, p0, p1)
         + StackG.endPenalty(Seq.SEQ, q0, q1);
     }
   };
