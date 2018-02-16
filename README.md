@@ -1,7 +1,7 @@
 # MyFold
 My implementation of Mfold.
 
-## A Quick Way to Get Things Started:
+## A Quick Way to Get Things Started
 
 Download the zip file of the repository.
 
