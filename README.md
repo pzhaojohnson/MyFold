@@ -12,3 +12,5 @@ Enter the extracted folder.
 Open `home.html` in your web browser.
 
 Submit RNA sequence for folding. (You may have to unblock popups to see the folding results.)
+
+[Visualize RNA structure.](http://rna.tbi.univie.ac.at/forna/)
