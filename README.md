@@ -1,5 +1,5 @@
 # MyFold
-My implementation of Mfold.
+My implementation of a minimum free energy RNA folding program.
 
 ## A Quick Way to Get Things Started
 
